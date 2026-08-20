@@ -74,6 +74,11 @@
           "gap": 0.0,
           "via_gap": 0.0,
           "width": 0.0
+        },
+        {
+          "gap": 0.2,
+          "via_gap": 0.2,
+          "width": 0.15
         }
       ],
       "drc_exclusions": [],
@@ -148,7 +153,7 @@
         "max_error": 0.005,
         "min_clearance": 0.15,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.5,
+        "min_copper_edge_clearance": 0.3,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
@@ -158,10 +163,10 @@
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.3,
+        "min_through_hole_diameter": 0.25,
         "min_track_width": 0.15,
         "min_via_annular_width": 0.1,
-        "min_via_diameter": 0.5,
+        "min_via_diameter": 0.45,
         "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
@@ -210,7 +215,9 @@
         }
       ],
       "track_widths": [
-        0.0
+        0.0,
+        0.2,
+        0.45
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -687,7 +694,21 @@
       "sort_asc": true,
       "sort_field": "Reference"
     },
-    "bus_aliases": {},
+    "bus_aliases": {
+      "PCIE": [
+        "PERST#",
+        "PECKP",
+        "PECKN",
+        "PETP",
+        "PETN",
+        "PERP",
+        "PERN"
+      ],
+      "USB": [
+        "D+",
+        "D-"
+      ]
+    },
     "connection_grid_size": 50.0,
     "drawing": {
       "dashed_lines_dash_length_ratio": 12.0,
@@ -728,7 +749,7 @@
         "uuid": "9c243595-d025-4d24-a2a4-aa6c4c0984c5"
       }
     ],
-    "used_designators": "",
+    "used_designators": "C8,C35",
     "variants": []
   },
   "sheets": [
