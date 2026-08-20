@@ -55,7 +55,8 @@ PCIE protocol
 |Y2                                                                                                                                                                                                                                                                                                                                                                                                                                              |1  |ABM8-272-T3  |   |                |                  |                       |${EXCLUDE_FROM_POS_FILES}  |Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm                        |                                                                                                                                                  |C20625731|
 
 ## Price
-PCB 4L 22x42 ENIG =   $18.73 excl shipping
-LCSC              =   $22.36 excl shipping
-jlc shipping&tax  =   $9.95
-LCSC shipping&tax =   $21.57
+PCB 4L 22x42 ENIG    $18.73 excl shipping
+LCSC                 $21.25 excl shipping
+jlc shipping&tax     $9.95
+LCSC shipping&tax    $21.57
+Total                $71.50
