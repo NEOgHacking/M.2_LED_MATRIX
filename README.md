@@ -56,7 +56,11 @@ PCIE protocol
 
 ## Price
 PCB 4L 22x42 ENIG    $18.73 excl shipping
+
 LCSC                 $21.25 excl shipping
+
 jlc shipping&tax     $9.95
+
 LCSC shipping&tax    $21.57
+
 Total                $71.50
