@@ -1,0 +1,494 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "9c243595-d025-4d24-a2a4-aa6c4c0984c5")
+	(paper "A4")
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 139.7 74.93) (xy 165.1 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "015bc8d8-1684-4346-84c2-4246e7e8df07")
+	)
+	(wire
+		(pts
+			(xy 139.7 77.47) (xy 165.1 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01bc6097-c676-4ff7-9e75-ebaf79555f34")
+	)
+	(wire
+		(pts
+			(xy 165.1 53.34) (xy 152.4 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12c71357-9cce-45a1-9deb-a7647aa37d42")
+	)
+	(bus
+		(pts
+			(xy 203.2 74.93) (xy 228.6 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c012b1d-c375-4180-b5c8-58b1d80203d9")
+	)
+	(wire
+		(pts
+			(xy 152.4 45.72) (xy 88.9 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32f68e43-e7cd-4bc6-934c-ffdeb61d5d93")
+	)
+	(wire
+		(pts
+			(xy 88.9 45.72) (xy 88.9 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7de007a9-7b8e-4bce-9442-5be013acd564")
+	)
+	(bus
+		(pts
+			(xy 76.2 76.2) (xy 101.6 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83665702-0561-43aa-a211-53b79fea01f7")
+	)
+	(bus
+		(pts
+			(xy 203.2 77.47) (xy 228.6 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90e28c4f-abd7-4504-a149-1a034b0fa6b5")
+	)
+	(wire
+		(pts
+			(xy 139.7 81.28) (xy 165.1 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a691c090-2f39-4e74-b0f3-7303101e1af1")
+	)
+	(wire
+		(pts
+			(xy 152.4 53.34) (xy 152.4 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d56c56ab-86b6-4dca-9e19-10a3e5bd2c6f")
+	)
+	(wire
+		(pts
+			(xy 88.9 53.34) (xy 76.2 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f38e33d1-7f5a-4b75-a90a-57c8cca32c53")
+	)
+	(sheet
+		(at 127 127)
+		(size 38.1 50.8)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "204df106-c83b-4edd-a3f9-f6c660b83f10")
+		(property "Sheetname" "PMIC"
+			(at 127 126.2884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PMIC.kicad_sch"
+			(at 127 178.3846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "kai_ysws"
+				(path "/9c243595-d025-4d24-a2a4-aa6c4c0984c5"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 165.1 50.8)
+		(size 38.1 50.8)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "21b40e7b-a7ee-4025-8f67-bf3cc22ce899")
+		(property "Sheetname" "Microcontroller"
+			(at 165.1 50.0884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Microcontroller.kicad_sch"
+			(at 165.1 102.1846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "RXD" input
+			(at 165.1 74.93 180)
+			(uuid "a9b41396-e169-4d64-8c08-f4490f79969f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TXD" output
+			(at 165.1 77.47 180)
+			(uuid "1c76ee0d-a3b9-46f0-b98b-bb64a510d317")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PERST#" input
+			(at 165.1 81.28 180)
+			(uuid "d046b053-6436-46b3-8298-0879f3107cca")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{COL[0..9]}" output
+			(at 203.2 77.47 0)
+			(uuid "d8b2dfdf-759e-4b0e-8c62-c90248fa471b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "{ROW[0..10]}" input
+			(at 203.2 74.93 0)
+			(uuid "f817410b-4c7e-4493-b55e-4e1a616df559")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{PEWAKE}" output
+			(at 165.1 53.34 180)
+			(uuid "216f745e-7f4d-4dbe-8970-4acc9490c42d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "kai_ysws"
+				(path "/9c243595-d025-4d24-a2a4-aa6c4c0984c5"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 228.6 50.8)
+		(size 38.1 50.8)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "c6a5f55e-15e9-40c3-93e8-2584365ebc92")
+		(property "Sheetname" "Matrix"
+			(at 228.6 50.0884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Matrix.kicad_sch"
+			(at 228.6 102.1846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "{COL[0..9]}" output
+			(at 228.6 77.47 180)
+			(uuid "3dd0fc13-fa5c-4082-b226-a6ec9078de92")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{ROW[0..10]}" input
+			(at 228.6 74.93 180)
+			(uuid "b4e92243-9083-4a66-8d04-cf07795ad64a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "kai_ysws"
+				(path "/9c243595-d025-4d24-a2a4-aa6c4c0984c5"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 38.1 50.8)
+		(size 38.1 50.8)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "d54e9088-c846-4dcc-8eeb-ea25829da3ee")
+		(property "Sheetname" "M.2 slot"
+			(at 38.1 50.0884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "M.2-slot.kicad_sch"
+			(at 38.1 102.1846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "{PCIE}" bidirectional
+			(at 76.2 76.2 0)
+			(uuid "325baa9d-9996-4b82-9bba-6a4c47c18e44")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{PEWAKE}" input
+			(at 76.2 53.34 0)
+			(uuid "9d4b979a-89dd-4de2-a013-f99d615dc142")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "kai_ysws"
+				(path "/9c243595-d025-4d24-a2a4-aa6c4c0984c5"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 101.6 50.8)
+		(size 38.1 50.8)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "ef7ba1dd-b760-4c36-843a-88b372f636d4")
+		(property "Sheetname" "M.2 to UART"
+			(at 101.6 50.0884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "M.2--UART.kicad_sch"
+			(at 101.6 102.1846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "RXD" input
+			(at 139.7 77.47 0)
+			(uuid "e07058f6-dc8c-4a75-bfbe-9a02ed7875bc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TXD" output
+			(at 139.7 74.93 0)
+			(uuid "2ceeff27-80aa-4b68-a152-48e743d2dd67")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "{PCIE}" bidirectional
+			(at 101.6 76.2 180)
+			(uuid "c36d462d-df42-4811-9c8c-22a77c099650")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PERST#" output
+			(at 139.7 81.28 0)
+			(uuid "79d1fd62-6323-4f53-a785-4d329328d4cb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "kai_ysws"
+				(path "/9c243595-d025-4d24-a2a4-aa6c4c0984c5"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
