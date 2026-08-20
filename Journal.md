@@ -99,4 +99,4 @@ And here is how the PCB turned out after all the routing.
 
 Then i put it in blender and made this render.
 
-![render](Blender/Images/render.png)
+![render](Blender/Images/Render.png)
